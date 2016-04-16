@@ -1,3 +1,19 @@
+
+移动支付公司Square在其博客上宣布，基于Apache 2.0许可协议，开源了于去年12月初收购的照片管理和共享应用Viewfinder，包括Viewfinder服务器、Android和iOS应用在内的25万行代码已托管到GitHub上。 
+
+Square工程师Peter Mattis在博客上表示，Square之所以考虑到将Viewfinder的完整代码公之于众，是希望能够与人方便，让开发者在应用开发过程中可以加以 利用或作为参考。尽管Square团队并没有为Viewfinder提供技术支持，也没有进行Bug修复，但此举还是赢得了满堂喝彩一致点赞。
+
+
+Viewfinder中包含的代码主要如下：
+
+Viewfinder服务器提供了一个拥有各种Amazon DynamoDB索引选项的结构化数据库架构。
+服务器还提供了数据库和协议层版本控制支持。
+在本地元数据存储方面，Viewfinder客户端使用LevelDB，相比CoreData，更易于使用，也相当便捷。
+内置可直接运行于移动设备上的全文本搜索引擎，支持联系人和图片搜索。
+使用GYP生成Xcode项目文件和Android构建文件。
+支持C++模板元编程，可使用C++11可变参数模板根据C++方法自动计算Java方法签名。
+
+
 Viewfinder
 ==========
 
